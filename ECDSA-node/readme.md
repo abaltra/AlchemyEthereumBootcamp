@@ -29,3 +29,5 @@ The server folder contains a node.js server using [express](https://expressjs.co
 The application should connect to the default server port (3042) automatically! 
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
+
+There's one ETH address with 100 monnies in it, it's private key is: `09df0353a2d660e78c9bef2b7c50dc786df5ebb4267bb466a30ed524c688e65c` and it's address is `a37617c9661217a85aaa4cddc4f04d94466bbd23`
