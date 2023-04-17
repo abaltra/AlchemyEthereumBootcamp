@@ -2,13 +2,8 @@
 
 This project is an example of using a client and server to facilitate transfers between different addresses. Since there is just a single server on the back-end handling transfers, this is clearly very centralized. We won't worry about distributed consensus for this project.
 
-However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
+There's one ETH address with 100 monnies in it, it's private key is: `09df0353a2d660e78c9bef2b7c50dc786df5ebb4267bb466a30ed524c688e65c` and it's address is `a37617c9661217a85aaa4cddc4f04d94466bbd23`
 
-### Video instructions
-For an overview of this project as well as getting started instructions, check out the following video:
-
-https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
- 
 ### Client
 
 The client folder contains a [react app](https://reactjs.org/) using [vite](https://vitejs.dev/). To get started, follow these steps:
@@ -30,4 +25,4 @@ The application should connect to the default server port (3042) automatically!
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
 
-There's one ETH address with 100 monnies in it, it's private key is: `09df0353a2d660e78c9bef2b7c50dc786df5ebb4267bb466a30ed524c688e65c` and it's address is `a37617c9661217a85aaa4cddc4f04d94466bbd23`
+
